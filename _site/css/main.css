@@ -1,0 +1,136 @@
+/************************
+GENERAL
+*************************/
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/************************
+HEADING
+*************************/
+
+header {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: solid #0942E8 8px;
+}
+
+.head-wrap {
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid black;
+}
+
+.blurb {
+  text-align: center;
+  margin: -15px 0 0 0;
+}
+
+.blurb h1 {
+  font-size: 3.5em;
+  line-height: 0.8em;
+}
+
+.blurb h2 {
+  font-size: 2em;
+  margin: -30px 0 10px 0;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 20px 0 0 0;
+}
+
+
+
+/************************
+NAVIGATION
+*************************/
+
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: -5px 10px 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.25em;
+  margin: 0 7px 0 7px;
+}
+
+nav a {
+  padding: 15px 10px;
+}
+
+
+
+/************************
+BODY
+*************************/
+
+
+
+/************************
+FOOTER
+*************************/
+
+footer {
+  font-size: .75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/************************
+COLORS
+*************************/
+
+header{
+  background: #1989FF;
+}
+
+nav a {
+  color: #fff27f;
+}

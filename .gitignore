@@ -1,0 +1,5 @@
+# Ignore site folder
+/site
+
+# Ignore bundler config.
+/.bundle

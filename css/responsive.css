@@ -1,0 +1,31 @@
+/************************
+HEADER
+*************************/
+
+@media screen and (min-width: 660px) {
+
+  .profile-photo {
+    float: left;
+    padding: 0 10px 0 10px;
+  }
+
+  .blurb {
+    float: left;
+    text-align: left;
+  }
+
+  nav {
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  header {
+    padding: 15px;
+    border: none;
+  }
+
+}

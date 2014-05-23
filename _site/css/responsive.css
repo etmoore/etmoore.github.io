@@ -24,8 +24,26 @@ HEADER
   }
 
   header {
-    padding: 15px;
+    padding: 15px 0 15px;
     border: none;
+  }
+
+}
+
+@media screen and (min-width: 480px) {
+
+  /************************
+  TWO COLUMN LAYOUT
+  *************************/
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
   }
 
 }

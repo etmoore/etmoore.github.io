@@ -15,7 +15,7 @@ a:hover {
 }
 
 #wrapper {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 5%;
 }
@@ -47,9 +47,10 @@ header {
 }
 
 .head-wrap {
-  max-width: 920px;
+  max-width: 1040px;
   margin: 0 auto;
   position: relative;
+  padding: 0 5%;
 }
 
 .blurb {
@@ -65,7 +66,7 @@ header {
 
 .blurb h2 {
   font-size: 2em;
-  margin: -10px 0 10px 2px;
+  margin: -8px 0 10px 2px;
   font-weight: 700;
 }
 
@@ -108,12 +109,6 @@ nav a {
 
 
 /************************
-BODY
-*************************/
-
-
-
-/************************
 FOOTER
 *************************/
 
@@ -140,6 +135,7 @@ PAGE: Blog
 #post-list {
   list-style: none;
 }
+
 
 
 /************************
@@ -189,8 +185,7 @@ PAGE: Portfolio
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7;
+  color: #bbb;
 }
 
 

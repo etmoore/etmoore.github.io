@@ -1,13 +1,8 @@
 <!doctype html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="public/css/normalize.css">
-  <!-- <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'> -->
-  <link rel="stylesheet" type="text/css" href="public/css/main.css">
-  <link rel="stylesheet" type="text/css" href="public/css/responsive.css">
-</head>
+{% include head.html %}
 <body>
-  {% include header.html %}
+  {% include nav.html %}
   <div id="wrapper">
     {{ content }}
   </div>

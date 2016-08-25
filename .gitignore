@@ -1,5 +1,4 @@
-# Ignore site folder
-/site
-
-# Ignore bundler config.
 /.bundle
+_site/
+.sass-cache/
+.jekyll-metadata

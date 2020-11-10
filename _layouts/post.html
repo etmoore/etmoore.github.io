@@ -5,13 +5,11 @@
   <div id="wrapper">
     <br>
     <h1>{{ page.title }}</h1>
-    <p class="lead">by {% if page.authorLink %}<a href="{{ page.authorLink }}">{% endif %} {{ page.author }}{% if page.authorLink %}</a>{% endif %}
     </p>
-    <hr>
     <p>
     <span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date_to_long_string }}
-    <span class="pull-right"><b>Tags:</b> {{ page.tags | array_to_sentence_string }}</span>
     </p>
+    <p class="pull-right"><b>Tags:</b> {{ page.tags | array_to_sentence_string }}</p>
     <hr>
     {{ content }}
   </div>

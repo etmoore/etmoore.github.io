@@ -3,7 +3,7 @@ GENERAL
 *************************/
 
 body {
-  font-family: sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 a {
@@ -42,12 +42,12 @@ NAV
 
 header {
   width: 100%;
-  font-family: 'Oxygen', sans-serif;
+  font-family: sans-serif;
   border-bottom: solid #0942E8 8px;
 }
 
 .head-wrap {
-  max-width: 1040px;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
   padding: 0 5%;
@@ -137,6 +137,7 @@ PAGE: Blog
 
 #post-list {
   list-style: none;
+  padding: 0;
 }
 
 

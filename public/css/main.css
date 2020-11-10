@@ -3,7 +3,7 @@ GENERAL
 *************************/
 
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: sans-serif;
 }
 
 a {
@@ -43,24 +43,15 @@ NAV
 header {
   width: 100%;
   font-family: sans-serif;
-  border-bottom: solid #0942E8 8px;
 }
 
 .head-wrap {
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
-  padding: 0 5%;
-}
-
-.blurb {
-  text-align: center;
-  /*margin: -15px 0 0 0;*/
 }
 
 .blurb h1 {
-  font-size: 3.5em;
-  line-height: 0.8em;
   font-weight: 700;
 }
 
@@ -205,18 +196,4 @@ PAGE: Resume
 
 .spacer {
   margin-bottom: 18.720px;
-}
-
-
-
-/************************
-COLORS
-*************************/
-
-header{
-  background: #1989FF;
-}
-
-nav a {
-  color: #fff27f;
 }
